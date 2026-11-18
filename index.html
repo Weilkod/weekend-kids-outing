@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>이모랑 조카 주말 나들이 TOP 7 (11/21~22)</title>
-<meta name="description" content="7살 활동파 여자아이 + 31살 이모, 한파 주말 서울 실내 나들이 추천 7곳 점수표">
+<title>이모랑 조카 주말 나들이 TOP 10 (11/21~22)</title>
+<meta name="description" content="7살 활동파 여자아이 + 31살 이모, 한파 주말 서울 실내 나들이 추천 10곳 점수표">
 <style>
 :root{--bg:#f6f4f1;--card:#fff;--ink:#222;--sub:#6b6b6b;--line:#ebe7e2;--accent:#ff6b5b;--accent2:#3d7bfd;--good:#22a06b;--warn:#e8890c}
 *{box-sizing:border-box}
@@ -47,6 +47,7 @@ h2{font-size:16px;margin:22px 2px 10px}
 .gal{display:flex;gap:6px;overflow-x:auto;scroll-snap-type:x mandatory;margin:10px -14px 4px;padding:0 14px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
 .gal::-webkit-scrollbar{display:none}
 .gal img{flex:none;width:78%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;scroll-snap-align:start;background:#eee}
+.new{display:inline-block;margin-left:6px;font-size:10px;font-weight:700;color:#fff;background:var(--accent);border-radius:6px;padding:1px 5px;vertical-align:2px}
 .gal-hint{font-size:11px;color:var(--sub);text-align:right;margin:0 0 2px}
 footer{color:var(--sub);font-size:12px;margin-top:20px;line-height:1.6}
 a{color:var(--accent2)}
@@ -74,26 +75,31 @@ a{color:var(--accent2)}
   <div><b>가성비</b> 2명 기준 체감 비용</div>
 </div>
 
-<h2>추천 TOP 7</h2>
+<h2>추천 TOP 10</h2>
 <div id="list"></div>
 
 <h2>추천 코스</h2>
 <div class="course"><b>가까이 짧게</b><p>바운스 반포에서 2~3시간 → 압구정로데오 <a href="https://map.naver.com/p/entry/place/2092510977">벤슨 크리머리</a>. 인스타에 "7살 딸 취향 저격"이라는 <a href="https://www.instagram.com/p/DeS9fIbzPQY/">아이스크림 만들기 후기</a>가 있어요. 체험은 아직 하는지 가기 전에 확인하세요.</p></div>
+<div class="course"><b>예약 없이 광화문 코스 (무료)</b><p>세종이야기·충무공이야기 → 세종문화회관 지하 케이컰처어트랙션(무료) → 광화문 점심. 대부분 지하로 이동해요.</p></div>
+<div class="course"><b>이모랑 같이 몸 쓰는 코스</b><p>서울숲클라이밍 영등포점 체험강습 → 문래창작촌 카페. 가기 전에 키즈 체험 가능 나이와 시간을 전화로 꼭 확인하세요.</p></div>
 <div class="course"><b>돈 덜 쓰는 코스</b><p>국립어린이과학관 (주말엔 예매 필수) → 대학로 점심.</p></div>
 <div class="course"><b>사당에서 제일 빨리</b><p>4호선 타고 대공원역 국립과천과학관. 이번 주말은 체험관(과학탐구관)이 쉬니까 자연사관, 천체투영관, 곤충생태관 위주로 보세요.</p></div>
 
 <footer>
 점수는 네이버 플레이스 방문자 리뷰·키워드, 인스타그램 10~11월 인기 게시물, 공식 공지를 보고 매긴 상대 점수예요. 리뷰 수는 2026.11.18 기준이에요. 사진 출처: 네이버 플레이스.<br>
-예약이 필요한 곳(키자니아, 상상나라, 어린이과학관)은 출발 전에 남은 자리를 꼭 확인하세요.<br>
+예약이 필요한 곳(중앙박물관 어린이박물관, 키자니아, 상상나라, 어린이과학관, 클라이밍 키즈체험)은 출발 전에 남은 자리를 꼭 확인하세요.<br>
 서울시청 지하 서울갤러리(무료)도 인기인데, 겨울철엔 일요일에 쉰다는 게시물이 있어서 순위에서는 뺐어요.
 </footer>
 </div>
 
 <script>
 const P=[
+ {n:"서울숲클라이밍 영등포점",img:"climb",nw:1,a:"영등포구 문래동 · 2호선 문래역",id:"1013096161",s:[10,10,9,8,5],rv:"531",d:"이모랑 조카가 둘 다 직접 벽을 타는 곳이에요. 300평 대형 암장이고, 키워드 1위는 '시설이 깔끔해요', 안전 관리 칭찬도 많아요. 어른 일일체험(강습+자유이용+암벽화)은 30,000원이에요.",t:["둘 다 참여","주차 4시간 무료"],w:["키즈 체험은 전화로 나이·시간 확인 010-6686-2700","양말 챙기기"]},
  {n:"바운스 트램폴린파크 반포센터",img:"bounce",a:"서초구 반포동 · 사당에서 제일 가까움",id:"589845285",s:[10,5,10,9,7],rv:"805",d:"아이 체력은 확실히 다 쓰고 와요. 키워드에 '부모도 쉬기 좋아요'가 많아서 이모는 주로 지켜보는 쪽이에요.",t:["체력 소진 1위"],w:[]},
+ {n:"국립중앙박물관 어린이박물관",img:"nmkids",nw:1,a:"용산구 · 4호선 이촌역 (사당에서 직통)",id:"12207484",s:[6,7,8,9,10],rv:"1,216",d:"무료이고 문화재를 직접 만지고 노는 체험이 많아요. 리뷰에 미취학~초등 저학년에 딱이라고 해요. 끝나고 본관 상설전시도 무료라 이모도 볼 거리가 많아요.",t:["무료","사당에서 4호선 직통"],w:["회차 예약 필수 (당일 예약 어려움)"]},
  {n:"국립어린이과학관",img:"kidsci",a:"종로구 혜화 · 4호선 직통",id:"11796217",s:[7,6,9,8,10],rv:"733",d:"리뷰 기준 0~7세 무료, 어른 2,000원. 로봇쇼 칭찬이 많아요. 대학로 코스로 묶기 좋아요.",t:["초저가"],w:["주말 예매 필수"]},
  {n:"국립과천과학관",img:"gwacheon",a:"과천 · 4호선 대공원역",id:"12965666",s:[5,7,8,10,10],rv:"7,680",d:"사당에서 금방 가요. 입장료 어른 4,000원, 7~19세 2,000원. 자연사관, 천체투영관, 곤충생태관은 정상 운영해요.",t:["가장 가까운 대형 과학관"],w:["체험관(과학탐구관) 11/16~23 휴관, 11/24 재개관"]},
+ {n:"세종이야기·충무공이야기",img:"sejong",c:4,nw:1,a:"종로구 광화문 · 광화문역 지하 연결",id:"19801532",s:[5,7,9,7,10],rv:"708",d:"광화문광장 아래 지하 전시관이라 추위 걱정이 없고, 무료에 예약 없이 들어가요. 거북선, 4D 영상, 서예 체험이 있어요. 인스타에서는 '예약 놓쳤을 때 광화문 코스'로 추천해요.",t:["무료·예약 없음"],w:["아이 눈높이 해설은 예약제"]},
  {n:"서울상상나라",img:"sangsang",a:"광진구 어린이대공원 · 7호선",id:"31949741",s:[8,5,8,7,9],rv:"3,861",d:"몸 쓰는 체험이 많고 저렴해요. 최근 1층 전시를 새로 바꿨다는 후기가 있어요.",t:["체험형"],w:["관람 2주 전 0시부터 예약 (예약자 우선 입장)"]},
  {n:"키자니아 서울",img:"kidzania",a:"송파구 잠실 · 롯데월드몰",id:"13028779",s:[7,5,10,8,4],rv:"3,461",d:"7살에게 딱 맞는 직업체험. 대신 이모는 대부분 지켜보기만 해요.",t:["7살 맞춤"],w:["주말 1부/2부 운영"]},
  {n:"서대문자연사박물관",img:"sdm",a:"서대문구 연희동 · 버스 필요",id:"11620547",s:[4,7,8,6,9],rv:"3,417",d:"공룡·동물 좋아하면 추천. 어른 후기도 좋은데 활동파 아이에겐 조금 정적이에요.",t:["공룡"],w:[]},
@@ -103,8 +109,8 @@ const L=["활동량","이모 재미","추위 대응","접근성","가성비"];
 document.getElementById("list").innerHTML=P.map((p,i)=>{
  const tot=p.s.reduce((a,b)=>a+b,0);
  const url="https://map.naver.com/p/entry/place/"+p.id;
- return `<div class="card r${i+1}"><div class="top"><div class="rank">${i+1}</div><div class="name"><a href="${url}">${p.n}</a><small>${p.a}</small></div><div class="total">${tot}<span>/50</span></div></div>
- <div class="gal">${[1,2,3,4,5].map(k=>`<img src="images/${p.img}${k}.jpg" alt="${p.n} 사진 ${k}" loading="lazy">`).join("")}</div><p class="gal-hint">옆으로 넘겨보기 &rarr;</p>
+ return `<div class="card r${i+1}"><div class="top"><div class="rank">${i+1}</div><div class="name"><a href="${url}">${p.n}</a>${p.nw?'<span class="new">NEW</span>':''}<small>${p.a}</small></div><div class="total">${tot}<span>/50</span></div></div>
+ <div class="gal">${Array.from({length:p.c||5},(_,i)=>i+1).map(k=>`<img src="images/${p.img}${k}.jpg" alt="${p.n} 사진 ${k}" loading="lazy">`).join("")}</div><p class="gal-hint">옆으로 넘겨보기 &rarr;</p>
  <div class="bars">${p.s.map((v,j)=>`<div class="bar"><span>${L[j]}</span><div class="track"><div class="fill" style="width:${v*10}%"></div></div><em>${v}</em></div>`).join("")}</div>
  <p class="desc">${p.d}</p>
  <div>${p.t.map(x=>`<span class="tag">${x}</span>`).join("")}${p.w.map(x=>`<span class="tag warn">${x}</span>`).join("")}</div>
